@@ -1,0 +1,133 @@
+@media screen and (min-width: 801px) and (max-width: 3000px) {
+
+    .header-container {
+        display: flex;
+        height: 90px;
+        background-color: rgb(55, 107, 184);
+        padding-top: 30px;
+        flex-direction: row;
+    }
+    
+    ul {
+        margin-left: 80px;    
+    }
+    
+    li {
+        display: flexbox;
+        display: inline;
+        margin-right: 35px;
+        font-size: 20px;
+        color: white;
+        
+    }
+
+    .list-item-phone {
+        display: none;
+    }
+
+    
+
+    .menu-image {
+        width: 30px;
+        display: none;
+    }
+
+   
+
+    
+    .content-container {
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+       
+        
+        
+    }
+    
+    .picture-container {
+        
+        /*display: inline-block;*/
+            
+    }
+    
+    .my-picture {
+        width: 350px;
+        border: none;
+        border-radius: 10px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: 80px;
+        margin-right: 30px;
+        box-shadow: 10px 10px 30px rgb(114, 114, 114);
+    }
+    
+    .description-container {
+        
+        height: 470px;
+        /* background-color: blueviolet; */
+        display: inline-block;
+        padding-right: 180px;
+        flex-shrink: 0;
+        border: 1px solid black;
+        
+    }
+
+    .say-hello {
+        
+        font-size: 35px; 
+        color: rgb(174, 171, 171);
+        
+    }
+
+    .name-row {
+        font-size: 80px; 
+        color: rgb(174, 171, 171);
+    }
+    
+    .name {
+        color: rgb(55, 107, 184);
+        
+    }
+    
+    .footer-container {
+        
+        height: 500px;
+        background-color: rgb(243, 243, 243);
+       
+    }
+    
+    .icons-container {
+        height: 30px;
+        background-color: aliceblue;
+        padding-left: 40px;
+        
+    }
+    
+    .icon {
+        width: 20px;
+        height: 20px;
+        background-color:  aliceblue;
+        display:inline-block;
+        margin-right: 20px;
+    }
+    
+    .logo {
+        width: 70%;
+        border-radius: 10px;
+    }
+    
+    .icon3 {
+        background-color: white;
+    }
+    
+    .maxima {
+        width: 700px;
+        height:fit-content; 
+        border: 1px solid rgb(198, 198, 198);
+        box-shadow: 5px 5px 20px rgb(192, 190, 190);
+        overflow: scroll;
+        margin-top: 280px;
+    } 
+
+}
