@@ -387,7 +387,7 @@
     .progress-bar-windows {
         width: 45%;
         height: 10px;
-        background-color: rgb(194, 26, 10);
+        background-color: yellow;
     }
 
     .percentage {
@@ -422,6 +422,12 @@
         background-color: green;
     }
 
+    .progress-bar-swift {
+        width: 60%;
+        height: 10px;
+        background-color: green;
+    }
+
     /*  ---------- Style sezione "My new challenge" ---------- */
 
     .image-container {
@@ -435,28 +441,21 @@
         margin-bottom: 30px;    
     }
 
-    
 
- 
+    .progress-bar-html {
+        width: 55%;
+        height: 10px;
+        background-color: yellow;
+    }
 
-    .second-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 25px;
-        margin-bottom: 25px;
+    .progress-bar-css {
+        width: 65%;
+        height: 10px;
+        background-color: green;
     }
-    
-    .html-image {
-        width: 50px;
-        margin-right: 8px;
-        
-    }
-    
-    .css-image {
-        width: 35px;
-        margin-left: 40px;
-        margin-right: 8px;
+
+    .css-info-container {
+        margin-bottom: 30px;
     }
 
     .container-s2i {
@@ -474,6 +473,7 @@
     .mention {
         margin-left: 40px;
         margin-right: 40px;
+        margin-bottom: 30px;
     }
 
     .qualification {
@@ -514,11 +514,5 @@
     .last-item {
         margin-bottom: 30px;
     }
-
-   
-
-
-
-
 
 }
