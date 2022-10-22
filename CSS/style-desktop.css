@@ -32,11 +32,6 @@
 
     
 
-    .menu-image {
-        width: 30px;
-        display: none;
-    }
-
     body {
         display: flex;
         justify-content: center;
@@ -198,57 +193,26 @@
 
     /*------- Section "Education" -------*/
 
+    
+    .education-image-container {
+        border: 1px solid black;
+        display: inline-block;
 
-    .text-container {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .education-date {
-        margin-left: 60px;
-        margin-top: 40px;
-        font-size: 20px;
     }
 
     .education-image {
         width: 100px;
-
     }
-
-    .education-par {
-        padding-left: 2px;
-    }
-
+    
     .education-container {
-        display: inline-block;
         border: 1px solid black;
-        
-    }
-
-    .education-image-container {
-        display: inline-block;
-        border: 1px solid black;
-        padding: 10px;
     }
 
     .education-general-container {
         display: flex;
-        width: 450px;
-        height: 150px;
-        margin-left: 60px;
-        background-color: lightblue;
+        flex-direction: row;
     }
-
-    .inter-second {
-        font-family: Roboto;
-        font-size: 25px;
-        font-weight: 900;
-        padding-left: 240px;
-        margin-top: 45px;
-        color: rgb(55, 107, 184);
-    }
-
+    
 
 
     /*------- Section "My skills" -------*/
@@ -267,4 +231,6 @@
         width: 50%;
     }
 
+}
+ 
 }
