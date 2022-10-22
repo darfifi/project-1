@@ -2,7 +2,7 @@
     Here follow media type to apply format for mobile phones up to devices 600px screen width maximum
 */   
 
-@media screen and (min-width: 100px) and (max-width: 900px) {
+@media screen and (min-width: 100px) and (max-width: 700px) {
     
     body {
         background-color: rgb(243, 243, 243);
@@ -277,6 +277,15 @@
         color: rgb(55, 107, 184);
     }
 
+    .inter-second {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 900;
+        padding-left: 40px;
+        padding-top: 25px;
+        color: rgb(55, 107, 184);
+    }
+
     .color-line {
         width: 200px;
         height: 2px;
@@ -385,20 +394,7 @@
 
 
 
-    .job-date {
-        color: rgb(55, 107, 184);
-        padding-left: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
-        font-weight: bold;
-        margin-bottom: 3px;
-        
-
-    }
-
-    .job-date-intermediate {
-        margin-top: 20px;
-    }
+    
 
     /*  ---------- Style section "My skills" ---------- */
 
@@ -417,7 +413,7 @@
     .progress-bar-container {
         display: inline-block;
         width:65%;
-        height: 14px;
+        height: 10px;
         background-color: white;
         margin-left: 8px;
         display: flex;
@@ -427,25 +423,25 @@
 
     .progress-bar-apple {
         width:65%;
-        height: 10px;
+        height: 6px;
         background-color: green;
         
     }
 
     .progress-bar-windows {
         width: 45%;
-        height: 10px;
+        height: 6px;
         background-color: yellow;
     }
 
     .percentage {
         display: inline-block;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 600;
         margin-left: 2px;
     }    
     .logo-apple {
-        width: 25px;
+        width: 18px;
     }
 
     .applicatives {
@@ -454,25 +450,25 @@
 
     .progress-bar-word {
         width: 80%;
-        height: 10px;
+        height: 6px;
         background-color: green;
     }
 
     .progress-bar-excel {
         width: 85%;
-        height: 10px;
+        height: 6px;
         background-color: green;
     }
 
     .progress-bar-powerpoint {
         width: 75%;
-        height: 10px;
+        height: 6px;
         background-color: green;
     }
 
     .progress-bar-swift {
         width: 60%;
-        height: 10px;
+        height: 6px;
         background-color: green;
     }
 
@@ -492,13 +488,13 @@
 
     .progress-bar-html {
         width: 55%;
-        height: 10px;
+        height: 6px;
         background-color: yellow;
     }
 
     .progress-bar-css {
         width: 65%;
-        height: 10px;
+        height: 6px;
         background-color: green;
     }
 
