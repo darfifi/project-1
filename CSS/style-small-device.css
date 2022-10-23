@@ -431,7 +431,7 @@
     .progress-bar-windows {
         width: 45%;
         height: 6px;
-        background-color: yellow;
+        background-color: orange;
     }
 
     .percentage {
