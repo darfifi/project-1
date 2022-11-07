@@ -52,6 +52,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-bottom: 40px;
        
         
         
@@ -106,7 +107,7 @@
 
     .par-section {
         line-height: 25px;
-        font-size: 16px;
+        font-size: 22px;
         font-family: Roboto;
         color: rgb(174, 171, 171);
         background-color: rgb(243, 243, 243); 
@@ -118,8 +119,13 @@
         
     }
 
+    .after-line {
+        margin-top: 22px;
+    }
+
     .education-par {
         margin-left: 8px;
+        
     }
     
     .footer-container {
@@ -166,6 +172,26 @@
         padding-left: 5px;
     } 
 
+    .resume-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .resume-button {
+        width: 40%;
+        height: 40px;
+        color: white;
+        background-color: rgb(55, 107, 184);
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        border-radius: 16px;
+        
+        
+    }
+
 
     /*------- Section "Who am I" -------*/
 
@@ -188,12 +214,25 @@
         margin-left: 10px;
     }
 
+    .text-container {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+
+    .text-container-sub1 {
+        display: flex;
+    }
+
     /*------- Section "Education" -------*/
 
     
     .education-image-container {
-        border: 1px solid black;
+        
         display: inline-block;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        
 
     }
 
@@ -202,12 +241,72 @@
     }
     
     .education-container {
-        border: 1px solid black;
+        
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        
     }
 
     .education-general-container {
         display: flex;
         flex-direction: row;
+    }
+
+    .first-container {
+        display: flex;
+    }
+
+    .education-date {
+        display: inline;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-right: 150px;
+        font-size: 30px;
+    }
+
+    .vertical-color {
+        width: 5px;
+        height: 120px;
+        background-color: rgb(55, 107, 184);
+        margin-left: 65px;
+    }
+
+    .inter-second {
+        margin-top: 65px;
+        font-family: Roboto;
+        font-size: 30px;
+        color: rgb(55, 107, 184);
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    /*------- Section "Job Experience" -------*/
+
+    .job-experience-date {
+        display: inline;
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+        margin-right: 150px;
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+    .job-image-container {
+        display: flex;
+        align-items: center;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+    .job-container {
+        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
     }
     
 
