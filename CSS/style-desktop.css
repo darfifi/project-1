@@ -1,11 +1,65 @@
 @media screen and (min-width: 701px) and (max-width: 3000px) {
 
+    .lamp {
+        width: 400px;
+    }
+
+    .lamp-container {
+        margin-left: 70px;
+        position: relative;
+        
+        
+    }
+
+    .who {
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 45px;
+        color: rgb(65, 64, 64);
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .whoiam-container {
+        width: 1300px;
+        
+        display: flex;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 70px;
+        padding-right: 70px;
+        
+        margin-bottom: 80px;
+
+        background-image: url("../images/background.png");
+        
+        position: relative;
+    }
+
+    .opaco {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(128, 128, 196);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.6;
+    }
+
+    
+    
+    
     .header-container {
         display: flex;
         height: 90px;
-        background-color: rgb(55, 107, 184);
+        /* background-color: rgb(55, 107, 184); */
+        background-image: linear-gradient(to top right, white 10%, blue 100%);
         padding-top: 30px;
         flex-direction: row;
+        
+
     }
     
     ul {
@@ -38,7 +92,7 @@
     }
 
     .main-container {
-        max-width: 1150px;
+        max-width: 1300px;
        
         align-content: center;
        
@@ -52,7 +106,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 40px;
+        
        
         
         
@@ -109,8 +163,8 @@
         line-height: 25px;
         font-size: 22px;
         font-family: Roboto;
-        color: rgb(174, 171, 171);
-        background-color: rgb(243, 243, 243); 
+        color: rgb(108, 107, 107);
+       
         
         margin-left: 40px;
         margin-right: 40px;
@@ -162,7 +216,8 @@
     .maxima {
        
         font-family: Roboto; 
-        font-size: 25px;
+        font-size: 35px;
+        font-weight: bold;
         box-shadow: 5px 5px 20px rgb(192, 190, 190);
         overflow: scroll;
         margin-top: 10px;
@@ -195,15 +250,21 @@
 
     /*------- Section "Who am I" -------*/
 
+  
+
     .section-title {
         font-family: Roboto;
         font-weight: 900;
-        font-size: 30px;
+        font-size: 45px;
         color: rgb(55, 107, 184);
         
-        display: inline-block;
+        display: inline;
         margin-left: 20px;
         margin-top: 25px;
+        position: relative;
+        top: 230px;
+
+        border: 1px solid black;
     }
 
     .color-line {
@@ -215,8 +276,10 @@
     }
 
     .text-container {
-        margin-top: 80px;
-        margin-bottom: 30px;
+        margin-left: 50px;
+        width: 550px;
+
+        border: 1px solid black;
     }
 
     .text-container-sub1 {
@@ -313,9 +376,115 @@
 
     /*------- Section "My skills" -------*/
 
+
+    .par-skills {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
     .logo-apple {
         width: 60px;
     }
+
+    .general-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .operating-system-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .applicatives-container {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+
+    .progress-bar-container {
+        
+        width: 250px;
+        height: 15px;
+        background-color: white;
+        margin-left: 8px;
+        display: flex;
+        align-items: center;
+        border: 0.1px solid black;
+    }
+
+    .progress-bar-apple {
+        width:65%;
+        height: 10px;
+        background-color: green;
+        
+    }
+
+    .progress-bar-windows {
+        width: 45%;
+        height: 10px;
+        background-color: orange;
+    }
+
+    .percentage {
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 2px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /*------- Section "My new challenge" -------*/
 
